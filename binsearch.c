@@ -12,7 +12,7 @@ int main()
     int wantFind = 7;
     while(minSubscript<=maxSubscript)
     {
-        // 取中间的下标
+        // 取中间的下标 
         int middle = (minSubscript + maxSubscript)/2;
         if(wantFind > array[middle])
         {
